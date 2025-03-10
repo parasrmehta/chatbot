@@ -110,6 +110,7 @@ const Chatbot = (function () {
       button.style.backgroundColor = config.buttonColor;
       messages.innerHTML = ""; // Clear messages
       addMessage(config.welcomeMessage, "bot-message");
+      alert('hi');
     },
     destroy: () => {
       container.remove();
